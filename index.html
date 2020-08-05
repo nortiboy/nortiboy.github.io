@@ -4,9 +4,12 @@
   function initFreshChat() {
     window.fcWidget.init({
       token: "aa338f70-0002-4735-98ea-e4a65b1ec579",
-      host: "https://wchat.eu.freshchat.com"
+      host: "https://wchat.eu.freshchat.com",
+      locale: "de"
     });
     // Copy the below lines under window.fcWidget.init inside initFreshChat function in the above snippet
+
+//https://developers.freshchat.com/web-sdk/
 
 // To set unique user id in your system when it is available
 window.fcWidget.setExternalId("john22.doe1987");
